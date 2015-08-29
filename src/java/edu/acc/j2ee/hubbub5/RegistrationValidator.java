@@ -1,4 +1,4 @@
-package edu.acc.j2ee.hubbub4;
+package edu.acc.j2ee.hubbub5;
 
 public class RegistrationValidator {
     

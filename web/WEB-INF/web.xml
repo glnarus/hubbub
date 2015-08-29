@@ -26,11 +26,11 @@
     </context-param>
     <listener>
         <description>ServletContextListener</description>
-        <listener-class>edu.acc.j2ee.hubbub4.StartupListener</listener-class>
+        <listener-class>edu.acc.j2ee.hubbub5.StartupListener</listener-class>
     </listener>
     <servlet>
         <servlet-name>Controller</servlet-name>
-        <servlet-class>edu.acc.j2ee.hubbub4.Controller</servlet-class>
+        <servlet-class>edu.acc.j2ee.hubbub5.Controller</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>

@@ -1,4 +1,4 @@
-package edu.acc.j2ee.hubbub4;
+package edu.acc.j2ee.hubbub5;
 
 import java.util.Date;
 
@@ -11,12 +11,19 @@ public class User implements java.io.Serializable {
     private String email;
     private String zipCode;
     private int id;
+    private int profileId;
     
     public User(String userName, Date joinDate, int id) {
         this.userName = userName;
         this.joinDate = joinDate;
         this.id = id;
     }
+    
+    public User(String userName, int id, int profileId) {
+        this.userName = userName;
+        this.id = id;
+        this.profileId = profileId;
+    }    
 
     public User() {
     }
@@ -88,5 +95,13 @@ public class User implements java.io.Serializable {
 
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public int getProfileId() {
+        return profileId;
+    }
+
+    public void setProfileId(int profileId) {
+        this.profileId = profileId;
     }
 }
